@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { View, StyleSheet, Image, FlatList, Text, TextInput, TouchableOpacity } from 'react-native';
 import { BotFaces, Opcao } from './models';
 import { Msg, Button } from './components';

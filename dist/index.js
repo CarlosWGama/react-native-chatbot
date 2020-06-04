@@ -59,8 +59,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-import * as React from 'react';
-var react_1 = __importDefault(require("react"));var react_native_1 = require("react-native");
+var react_1 = __importDefault(require("react"));
+var react_native_1 = require("react-native");
 var models_1 = require("./models");
 var components_1 = require("./components");
 var Chatbot = /** @class */ (function (_super) {
@@ -159,7 +159,7 @@ var Chatbot = /** @class */ (function (_super) {
     </react_native_1.View>);
     };
     return Chatbot;
-}(react_1.default.Component));
+}(React.Component));
 exports.Chatbot = Chatbot;
 //==================== ESTILO =====================//
 var styles = react_native_1.StyleSheet.create({

@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { BotFaces, Opcao } from './models';
 export interface ChatbotProps {
     getResposta?(texto: string): any;
