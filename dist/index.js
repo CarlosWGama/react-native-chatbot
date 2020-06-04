@@ -55,9 +55,12 @@ var __spreadArrays = (this && this.__spreadArrays) || function () {
             r[k] = a[j];
     return r;
 };
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
-var react_1 = require("react");
-var react_native_1 = require("react-native");
+import * as React from 'react';
+var react_1 = __importDefault(require("react"));var react_native_1 = require("react-native");
 var models_1 = require("./models");
 var components_1 = require("./components");
 var Chatbot = /** @class */ (function (_super) {
