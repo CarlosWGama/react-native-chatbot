@@ -11,6 +11,7 @@ var BotFaces;
     BotFaces[BotFaces["TRANQUILO"] = require('./faces/tranquilo.png')] = "TRANQUILO";
     BotFaces[BotFaces["TRISTE"] = require('./faces/triste.png')] = "TRISTE";
 })(BotFaces = exports.BotFaces || (exports.BotFaces = {}));
+
 var Opcao = /** @class */ (function () {
     function Opcao(title, onPress) {
         this.title = title;

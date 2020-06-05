@@ -1,12 +1,13 @@
 {
   "name": "cwg-rn-chatbot",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Criar um componete que pode interar com o um Chat",
   "main": "./dist/index.js",
-  "types" : "./dist/index.d.ts",
+  "types": "./dist/index.d.ts",
   "dependencies": {
     "@types/node": "^14.0.10",
-    "typescript": "^3.9.5"
+    "typescript": "^3.9.5",
+    "typescript-transform-jsx": "^1.5.5"
   },
   "devDependencies": {},
   "scripts": {
