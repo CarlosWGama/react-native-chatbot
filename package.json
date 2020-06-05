@@ -1,6 +1,6 @@
 {
   "name": "cwg-rn-chatbot",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "Criar um componete que pode interar com o um Chat",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
